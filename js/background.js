@@ -1,10 +1,11 @@
-console.log("background running");
+console.log("background running")
 
 chrome.browserAction.onClicked.addListener(buttonClicked);
 
 function buttonClicked() {
 
-console. log("Button Clicked");
+console. log("ButtonClicked!");
+
 
 
 }
