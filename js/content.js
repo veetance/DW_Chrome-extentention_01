@@ -1,4 +1,4 @@
-console.log("They do not exist... creepyy?");
+// console.log("They do not exist... creepyy?");
 
 // TRY: updating the text content of an element or set of elements on one or more pages
 
@@ -39,7 +39,7 @@ let filenames = [
         "9ine.jpg",
         "t3n.jpg",
         "eleben.jpg",
-        "twleve.jpg",
+        "twelve.jpg",
         "13teen.jpg"
 
         ];
@@ -54,8 +54,38 @@ let filenames = [
         	let url = chrome.extension.getURL(file);
         	imgElt.src = url;
         	console.log(url);
+}
 
 
 
 
-        }
+
+
+console. log("p5here");
+
+function setup() {
+console. log("sketch started!")
+
+let c = createCanvas(1920, 1080)
+c.position(0, 0);
+
+}
+
+function draw() {
+ background('rgba(244, 248, 252,0)');
+
+  stroke(255,122,45);
+  line(mouseX, 0, mouseX, 1920);
+console. log(mouseX)
+  // stroke(135,122,45);
+  // line(mouseY,100, mouseY, 1080);
+
+
+
+console. log("sketch looping!")
+
+
+
+
+
+}
