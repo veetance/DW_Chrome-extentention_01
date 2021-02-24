@@ -3,6 +3,20 @@
     "name": "XYRooler",
     "description": "UPDATE: Use this tool to get accurate X,Y cordinates",
     "version": "1.0",
+        
+
+
+
+
+        "web_accessible_resources": [ 
+        "images/People/*.jpg",
+        "images/*.png"
+       
+
+
+
+
+     ],
      
    
     
@@ -33,10 +47,7 @@
 
 
 
-    "web_accessible_resources": [ 
-        "images/*.jpg",
-        "images/*.png" 
-     ],
+
 
 
 

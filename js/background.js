@@ -1,4 +1,8 @@
-console.log("background running")
+console.log("They do not exist... creepyx2");
+
+
+// let filenames =
+
 
 chrome.browserAction.onClicked.addListener(buttonClicked);
 
